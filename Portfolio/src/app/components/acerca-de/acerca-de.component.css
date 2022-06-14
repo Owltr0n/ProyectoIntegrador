@@ -2,13 +2,14 @@
     padding: 20px;
 }
 
+
 .div {
-    background-color: #5b5b5b;
+    background-color: lightgrey;
     text-align: center;
 }
 
 @media (min-width: 576px) {
-    fotoDePerfil {
+    #fotoDePerfil {
         position: absolute;
         width: 15%;
         border-radius: 100%;
