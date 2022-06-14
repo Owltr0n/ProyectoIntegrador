@@ -3,9 +3,8 @@
 }
 
 
-.div {
+div {
     background-color: lightgrey;
-    text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -20,4 +19,8 @@
 #nombre {
     font-weight: bold;
     margin-top: 30%;
+}
+
+span {
+    text-align: center;
 }
