@@ -1,0 +1,13 @@
+.row {
+    padding: 20px;
+}
+
+.div {
+    background-color: #5b5b5b;
+    text-align: center;
+}
+
+#nombre {
+    font-weight: bold;
+    margin-top: 30%;
+}
