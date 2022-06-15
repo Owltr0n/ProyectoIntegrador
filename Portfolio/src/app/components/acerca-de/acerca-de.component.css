@@ -5,6 +5,7 @@
 
 div {
     background-color: lightgrey;
+    text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -12,15 +13,24 @@ div {
         position: absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px gray;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px;
+    }
+}
+
+@media (max-width: 575px) {
+    #fotoDePerfil {
+        position: absolute;
+        width: 50%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 28%;
+        top: 77%;
     }
 }
 
 #nombre {
     font-weight: bold;
     margin-top: 30%;
-}
-
-span {
-    text-align: center;
 }
