@@ -1,19 +1,14 @@
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.redesSociales {
-    margin-right: 0.5em;
-}
-
-.logoAP {
+img {
     width: 150px;
 }
 
-img {
-    width: 40px;
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
 }
 
-/* Vista para celulares */
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}

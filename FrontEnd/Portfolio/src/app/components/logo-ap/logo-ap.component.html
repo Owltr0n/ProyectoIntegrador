@@ -1,25 +1,48 @@
-<div class="row">
-    <div class="container">
-        <div class="logo">
-            <img src="../../../assets/APLogo.png" alt="" class="logoAP">
-        </div>
-        <div class="redesSociales">
-            <a href="">
-                <img src="../../../assets/facebook-icon.png" alt="Facebook" class="facebook-icon">
-            </a>
-            <a href="">
-                <img src="../../../assets/github-icon.png" alt="" class="github">
-            </a>
-            <a href="">
-                <img src="../../../assets/instagram-icon.png" alt="" class="instagram">
-            </a>
-            <a href="">
-                <img src="../../../assets/linkedin-icon.png" alt="" class="linkedin">
-            </a>
-            <a href="">
-                <img src="../../../assets/twitter-icon.png" alt="" class="twitter">
-            </a>
-            <button class="btn btn-primary rounded-pill" type="submit">Ingreso</button>
-        </div>
-    </div>
+<div class="container-fluid bg-dark d-flex justify-content-center" id="inicio">
+    <img src="../../../assets/APLogo.png" alt="Argentina Programa Logo" class="img-fluid w-40 h-auto" width="150px">
 </div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-dark text-white sticky-top shadow" id="menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#inicio">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-dark" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobreMi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#educacion">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contacto
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="menu-desplegable">
+              <li><a class="dropdown-item" href="#" target="_blank">Facebook</a></li>
+              <li><a class="dropdown-item" href="#" target="_blank">Instagram</a></li>
+              <li><a class="dropdown-item" href="#" target="_blank">Twitter</a></li>
+              <li><a class="dropdown-item" href="#" target="_blank">LinkIn</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#" target="_blank">Github</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-success rounded-pill" type="submit">Ingresar</button>
+        </form>
+      </div>
+    </div>
+</nav>

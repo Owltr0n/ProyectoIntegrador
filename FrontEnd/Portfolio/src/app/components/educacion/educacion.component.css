@@ -1,11 +1,11 @@
-.row {
-    padding: 20px;
+.educaciones {
+    width: 100%;
+    text-align: center;
 }
 
-div {
-    background: lightgrey;
-}
-
-h3, h5 {
-    display: inline;
+@media(max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
 }
